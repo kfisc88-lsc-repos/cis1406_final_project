@@ -12,7 +12,7 @@
     <legend>Meats and Pseudo-Meats</legend>
 
     <div>
-      <input id="ca-bacon" type="checkbox" >
+      <input id="ca-bacon" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <label for="ca-bacon">Canadian Bacon</label>
 
       <select>
@@ -36,7 +36,7 @@
     </div>
 
     <div>
-      <input id="chicken" type="checkbox" >
+      <input id="chicken" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <label for="chicken">Chicken</label>
 
       <select>
@@ -60,7 +60,7 @@
     </div>
 
     <div>
-      <input id="hamburger" type="checkbox" >
+      <input id="hamburger" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <label for="hamburger">Hamburger</label>
 
       <select>
@@ -84,7 +84,7 @@
     </div>
 
     <div>
-      <input id="pepperoni" type="checkbox" >
+      <input id="pepperoni" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <label for="pepperoni">Pepperoni</label>
 
       <select>
@@ -108,7 +108,7 @@
     </div>
 
     <div>
-      <input id="sausage" type="checkbox" >
+      <input id="sausage" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <label for="sausage">Sausage</label>
 
       <select>
@@ -138,7 +138,7 @@
 
     <div>
       <label for="mushroom">Mushrooms</label>
-      <input id="mushroom" type="checkbox" name="" value="">
+      <input id="mushroom" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="mushroom-position" value="left" >
@@ -154,7 +154,7 @@
 
     <div>
       <label for="onion">Onion</label>
-      <input id="onion" type="checkbox" name="" value="">
+      <input id="onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="onion-position" value="left" >
@@ -170,7 +170,7 @@
 
     <div>
       <label for="red-onion">Red Onion</label>
-      <input id="red-onion" type="checkbox" name="" value="">
+      <input id="red-onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
           <input type="radio" name="red-onion-position" value="left" >
@@ -186,7 +186,7 @@
 
     <div>
       <label for="red-pepper">Red Pepper</label>
-      <input id="red-pepper" type="checkbox" name="" value="">
+      <input id="red-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="red-pepper-position" value="left" >
@@ -201,8 +201,8 @@
     </div>
 
     <div>
-      <label for="gpepper">Green Pepper</label>
-      <input id="gpepper" type="checkbox" name="" value="">
+      <label for="grn-pepper">Green Pepper</label>
+      <input id="grn-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="grn-pepper-position" value="left" >
@@ -218,7 +218,7 @@
 
     <div>
       <label for="pineapple">Pineapple</label>
-      <input id="pineapple" type="checkbox" name="" value="">
+      <input id="pineapple" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="pineapple-position" value="left" >
@@ -234,7 +234,7 @@
 
     <div>
       <label for="spinach">Spinach</label>
-      <input id="spinach" type="checkbox" name="" value="">
+      <input id="spinach" type="checkbox" > <!-- Write JS to display topping location if checked -->
       <div class="toppings-location">
         <label>Left Side
         <input type="radio" name="spinach-position" value="left" >
