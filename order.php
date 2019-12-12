@@ -7,69 +7,250 @@
 
 <h3>ORDER YOUR PIZZA</h3>
 
-<form class="order" action="index.html" method="post">
+<form class="order" method="post">
   <fieldset>
     <legend>Meats and Pseudo-Meats</legend>
 
-    <label for="">Canadian Bacon</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <input id="ca-bacon" type="checkbox" >
+      <label for="ca-bacon">Canadian Bacon</label>
 
-    <label for="">Hamburger</label>
-    <input id="" type="checkbox" name="" value="">
+      <select>
+        <option value="regular">Regular</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="glutenfree">Gluten Free</option>
+      </select>
 
-    <label for="pep">Pepperoni</label>
-    <input id="pep" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="ca-bacon-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="ca-bacon-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="ca-bacon-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Sausage</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <input id="chicken" type="checkbox" >
+      <label for="chicken">Chicken</label>
 
-    <label for=""></label>
-    <input id="" type="checkbox" name="" value="">
+      <select>
+        <option value="regular">Regular</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="glutenfree">Gluten Free</option>
+      </select>
 
-    <label for=""></label>
-    <input id="" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="chicken-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="chicken-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="chicken-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for=""></label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <input id="hamburger" type="checkbox" >
+      <label for="hamburger">Hamburger</label>
+
+      <select>
+        <option value="regular">Regular</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="glutenfree">Gluten Free</option>
+      </select>
+
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="hamburger-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="hamburger-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="hamburger-position" value="right" >
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <input id="pepperoni" type="checkbox" >
+      <label for="pepperoni">Pepperoni</label>
+
+      <select>
+        <option value="regular">Regular</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="glutenfree">Gluten Free</option>
+      </select>
+
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="pepperoni-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="pepperoni-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="pepperoni-position" value="right" >
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <input id="sausage" type="checkbox" >
+      <label for="sausage">Sausage</label>
+
+      <select>
+        <option value="regular">Regular</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="glutenfree">Gluten Free</option>
+      </select>
+
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="sausage-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="sausage-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="sausage-position" value="right" >
+        </label>
+      </div>
+    </div>
 
   </fieldset>
 
   <fieldset>
     <legend>Fruits and Vegetables</legend>
 
+    <div>
+      <label for="mushroom">Mushrooms</label>
+      <input id="mushroom" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="mushroom-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="mushroom-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="mushroom-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="msh">Mushrooms</label>
-    <input id="msh" type="checkbox" name="" value="">
+    <div>
+      <label for="onion">Onion</label>
+      <input id="onion" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="onion-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="onion-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="onion-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Onion</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <label for="red-onion">Red Onion</label>
+      <input id="red-onion" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+          <input type="radio" name="red-onion-position" value="left" >
+        </label>
+        <label>Whole
+          <input type="radio" name="red-onion-position" value="whole" checked >
+        </label>
+        <label>Right
+          <input type="radio" name="red-onion-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Red Pepper</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <label for="red-pepper">Red Pepper</label>
+      <input id="red-pepper" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="red-pepper-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="red-pepper-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="red-pepper-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Green Pepper</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <label for="gpepper">Green Pepper</label>
+      <input id="gpepper" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="grn-pepper-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="grn-pepper-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="grn-pepper-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Red Onion</label>
-    <input id="" type="checkbox" name="" value="">
+    <div>
+      <label for="pineapple">Pineapple</label>
+      <input id="pineapple" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left
+        <input type="radio" name="pineapple-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="pineapple-position" value="whole" checked >
+        </label>
+        <label>Right
+        <input type="radio" name="pineapple-position" value="right" >
+        </label>
+      </div>
+    </div>
 
-    <label for="">Pineapple</label>
-    <input id="" type="checkbox" name="" value="">
-
-    <label for="">Eggplant</label>
-    <input id="" type="checkbox" name="" value="">
-
-    <label for="">Spinach</label>
-    <input id="" type="checkbox" name="" value="">
-
-    <label for=""></label>
-    <input id="" type="checkbox" name="" value="">
-
-    <label for=""></label>
-    <input id="" type="checkbox" name="" value="">
-
+    <div>
+      <label for="spinach">Spinach</label>
+      <input id="spinach" type="checkbox" name="" value="">
+      <div class="toppings-location">
+        <label>Left Side
+        <input type="radio" name="spinach-position" value="left" >
+        </label>
+        <label>Whole
+        <input type="radio" name="spinach-position" value="whole" checked >
+        </label>
+        <label>Right Side
+        <input type="radio" name="spinach-position" value="right" >
+        </label>
+      </div>
+    </div>
   </fieldset>
 
+<button type="button" name="submit">Submit</button>
+<button type="button" name="cancel">Cancel</button>
 
 </form>
 
