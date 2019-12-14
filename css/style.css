@@ -1,0 +1,80 @@
+/*
+  Author: Kelley Fischer
+  Date: 12/13/19
+
+*/
+
+/* HTML and Body */
+html {
+  background-color: #FA0416;
+}
+
+body {
+  background-color: white;
+  min-width: 320px;
+  max-width: 960px;
+  height: 100vh;
+  margin: 0 auto 0 auto;
+  padding: 5px;
+}
+
+
+/* Image Styles */
+#wheel {
+  width: 5vh;
+  padding-top: 10px;
+}
+
+#logo {
+  width: 5vh;
+  padding-right: 0px;
+}
+
+
+/* Header Styles */
+.header-container {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+}
+
+
+#header-1 {
+  flex: 1 1 10px;
+}
+#header-2 {
+  flex: 1 2 1px;
+}
+#header-3 {
+  flex: 1 1 auto;
+}
+
+
+
+#copyright {
+  font-size: 0.3em;
+}
+
+
+/* Navigation Bar Styles */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  width:
+  border: 1px solid black;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
