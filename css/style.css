@@ -6,18 +6,18 @@
 
 /* HTML and Body */
 html {
-  background-color: #FA0416;
+  background-color: #FFFFFF;
+  font-family: Candara, sans-serif;
 }
 
 body {
-  background-color: white;
+  background-color: #FFFFFF;
   min-width: 320px;
   max-width: 960px;
   height: 100vh;
   margin: 0 auto 0 auto;
   padding: 5px;
 }
-
 
 
 /* Header Styles */
@@ -36,19 +36,16 @@ header h1 {
   position: absolute;
   font-size: 2.5em;
   left: 50%;
-  margin-left: -125px;
+  margin-left: -130px;
   top: 50%;
   margin-top: -30px;
-
-  /* border: 1px solid red; */
 }
 
-header h4 {
+header h5 {
   text-align: center;
   position: relative;
-  top: 80%;
+  top: 70%;
 }
-
 
 #copyright {
   font-size: 0.3em;
@@ -56,24 +53,38 @@ header h4 {
 
 
 /* Navigation Bar Styles */
+.horizontal {
+  width: 100%;
+}
 
 .horizontal ul {
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
   -webkit-display: flex;
   display: flex;
+  box-shadow: 0px 5px 10px;
 }
 
 .horizontal li {
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
-  /* border: 1px solid red; */
+
 }
 
 .horizontal li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+a:link, a:visited {
+  background-color: #D77514;
+}
+
+a:active, a:hover{
+  background-color: #FFB46B;
 }
