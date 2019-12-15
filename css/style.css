@@ -6,7 +6,7 @@
 
 /* HTML and Body */
 html {
-  background-color: #FFFFFF;
+  background-color: #D72B14;
   font-family: Candara, sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 header {
   height: 20vh;
   background-image: url("../assets/ship_wheel.png");
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
   background-size: contain;
   background-repeat: no-repeat;
@@ -34,10 +34,11 @@ header {
 
 header h1 {
   position: absolute;
-  font-size: 2.5em;
+  font-size: 3em;
+  font-variant: small-caps;
   left: 50%;
-  margin-left: -130px;
   top: 50%;
+  margin-left: -150px;
   margin-top: -30px;
 }
 
@@ -88,3 +89,15 @@ a:link, a:visited {
 a:active, a:hover{
   background-color: #FFB46B;
 }
+
+
+/* Main/Article Styles */
+main {
+
+}
+
+
+/* Footer Styles */
+
+
+/* Media Queries */
