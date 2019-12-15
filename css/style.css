@@ -4,14 +4,13 @@
 
 */
 
-/* Debugging */
-* {
-  /* border: 1px solid red; */
-}
+/*-------------------------------- Debugging --------------------------------*/
+/* * {
+   border: 1px solid red;
+} */
 
 
-
-/* HTML and Body */
+/*------------------------------ HTML and Body ------------------------------*/
 html {
   background-color: #483C46;
   font-family: Candara, sans-serif;
@@ -21,13 +20,17 @@ body {
   background-color: #BEEE62;
   min-width: 320px;
   max-width: 960px;
-  height: 100vh;
+  min-height: 100%;
   margin: 0 auto 0 auto;
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-/* Header Styles */
+
+/*------------------------------ Header Styles ------------------------------*/
 header {
   margin: 0;
   padding: 2vh;
@@ -54,12 +57,8 @@ header h5 {
   margin: 0 auto 3vh auto;
 }
 
-#copyright {
-  font-size: 0.3em;
-}
 
-
-/* Navigation Bar Styles */
+/*-------------------------- Navigation Bar Styles --------------------------*/
 .horizontal {
   width: 100%;
   padding: 0;
@@ -90,56 +89,64 @@ header h5 {
   padding: 14px 16px;
 }
 
-a:link, a:visited {
+.horizontal a:link, .horizontal a:visited {
   background-color: #D77514;
 }
 
-a:active, a:hover{
+.horizontal a:active, .horizontal a:hover{
   background-color: #FFB46B;
 }
 
 
-/* Carousel */
-/* .carousel {
-
-} */
-
-
-/* Main/Article Styles */
-.main-article {
-  float: left;
-  width: 45%;
-  padding-left: 10px;
+/*--------------------------- Main/Article Styles ---------------------------*/
+#home-main {
+  padding: 5px 10px;
+  min-height: 80vh;
 }
 
-.main-img {
-  float: right;
-  width: 45%;
-  padding: 10px;
+#home-main h2 {
+  text-align: center;
 }
 
 #pizza {
-  width: 100%;
+  width: 40%;
+  float: right;
+  padding-left: 1em;
 }
 
-figcaption {
-  font-style: italic;
-}
-
-main::after {
+#home-main::after {
   content: "";
   display: table;
   clear: both;
 }
 
 
-/* Footer Styles */
+/*------------------------------ Footer Styles ------------------------------*/
 footer {
-  text-align: center;
-  font-size: 1.2em;
-  background-color: #483c46;
-  padding: 0;
-  margin: 0 auto 0 auto;
+  background-color: #70ae6c;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 0.8em;
 }
 
-/* Media Queries */
+footer h4 {
+  margin-bottom: 0;
+}
+
+#footer-box-1 {
+  text-align: center;
+  grid-row: 2;
+  border: 1px solid red;
+}
+
+#footer-box-2 {
+  border: 1px solid red;
+  text-align: center;
+  grid-row: 2;
+}
+
+
+/*------------------------------ Media Queries ------------------------------*/
+@media query {
+
+}
