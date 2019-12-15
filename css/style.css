@@ -4,48 +4,54 @@
 
 */
 
+/* Debugging */
+* {
+  /* border: 1px solid red; */
+}
+
+
+
 /* HTML and Body */
 html {
-  background-color: #D72B14;
+  background-color: #483C46;
   font-family: Candara, sans-serif;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #BEEE62;
   min-width: 320px;
   max-width: 960px;
   height: 100vh;
   margin: 0 auto 0 auto;
-  padding: 5px;
+  padding: 0;
 }
 
 
 /* Header Styles */
 header {
-  height: 20vh;
+  margin: 0;
+  padding: 2vh;
+  background: #3c6e71 url("../assets/ship_wheel.png") center / 20vh no-repeat;
   background-image: url("../assets/ship_wheel.png");
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
 }
 
 header h1 {
-  position: absolute;
   font-size: 3em;
   font-variant: small-caps;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -30px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #483c46;
 }
 
 header h5 {
   text-align: center;
-  position: relative;
-  top: 70%;
+  width: 60%;
+  color: #483c46;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding-top: 0;
+  margin: 0 auto 3vh auto;
 }
 
 #copyright {
@@ -56,15 +62,17 @@ header h5 {
 /* Navigation Bar Styles */
 .horizontal {
   width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #D77514;
 }
 
 .horizontal ul {
   list-style-type: none;
-  margin: 5px;
+  margin: 0;
   padding: 0;
   -webkit-display: flex;
   display: flex;
-  box-shadow: 0px 5px 10px;
 }
 
 .horizontal li {
@@ -92,7 +100,7 @@ a:active, a:hover{
 
 
 /* Main/Article Styles */
-main {
+main article:first-of-type{
 
 }
 
