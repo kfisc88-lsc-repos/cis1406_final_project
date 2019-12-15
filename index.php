@@ -1,10 +1,10 @@
 <?php include "templates/header.html"; ?>
 <?php include "templates/navbar.html"; ?>
-
+<script src="js/scp_js.js"></script>
 <main id="home-main">
   <h2>Welcome to Sky City Pizza!</h2>
   <article>
-    <img id="pizza" src="../assets/pizza1.jpg" alt="delicious pizza" >
+    <img id="pizza" src="assets/home1.jpg" alt="delicious pizza" > <!--change file path-->
     <p>You've just landed where our drones take off carrying the delicious pizza
     made with 100% Organic & locally sourced ingredients, baked in our
     Aeronautical Radiant Heat Boiler Oven. Ok, actually we just use a regular

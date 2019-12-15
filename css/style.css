@@ -136,11 +136,9 @@ footer h4 {
 #footer-box-1 {
   text-align: center;
   grid-row: 2;
-  border: 1px solid red;
 }
 
 #footer-box-2 {
-  border: 1px solid red;
   text-align: center;
   grid-row: 2;
 }
