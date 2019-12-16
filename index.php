@@ -1,6 +1,6 @@
 <?php include "templates/header.html"; ?>
 <?php include "templates/navbar.html"; ?>
-<script src="js/index.js"></script>
+<script src="js/scp_js.js"></script>
 <main id="home-main">
   <h2>Welcome to Sky City Pizza!</h2>
   <article>
