@@ -5,17 +5,19 @@
 <?php include "templates/header.html"; ?>
 <?php include "templates/navbar.html"; ?>
 
-<h3>ORDER YOUR PIZZA</h3>
+<h2 id="order-header">Build Your Own Pizza</h2>
 
 <form class="order" method="post">
-  <fieldset>
+  <fieldset id="meats">
     <legend>Meats and Pseudo-Meats</legend>
 
-    <div>
-      <input id="ca-bacon" type="checkbox" > <!-- Write JS to display topping location if checked -->
-      <label for="ca-bacon">Canadian Bacon</label>
+    <div class="toppings">
+      <label for="ca-bacon">
+        <input id="ca-bacon" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Canadian Bacon
+      </label>
 
-      <select>
+      <select class="meat-style">
         <option value="regular">Regular</option>
         <option value="vegetarian">Vegetarian</option>
         <option value="vegan">Vegan</option>
@@ -35,11 +37,13 @@
       </div>
     </div>
 
-    <div>
-      <input id="chicken" type="checkbox" > <!-- Write JS to display topping location if checked -->
-      <label for="chicken">Chicken</label>
+    <div class="toppings">
+      <label for="chicken">
+        <input id="chicken" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Chicken
+      </label>
 
-      <select>
+      <select class="meat-style">
         <option value="regular">Regular</option>
         <option value="vegetarian">Vegetarian</option>
         <option value="vegan">Vegan</option>
@@ -59,11 +63,13 @@
       </div>
     </div>
 
-    <div>
-      <input id="hamburger" type="checkbox" > <!-- Write JS to display topping location if checked -->
-      <label for="hamburger">Hamburger</label>
+    <div class="toppings">
+      <label for="hamburger">
+        <input id="hamburger" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Hamburger
+      </label>
 
-      <select>
+      <select class="meat-style">
         <option value="regular">Regular</option>
         <option value="vegetarian">Vegetarian</option>
         <option value="vegan">Vegan</option>
@@ -83,11 +89,13 @@
       </div>
     </div>
 
-    <div>
-      <input id="pepperoni" type="checkbox" > <!-- Write JS to display topping location if checked -->
-      <label for="pepperoni">Pepperoni</label>
+    <div class="toppings">
+      <label for="pepperoni">
+        <input id="pepperoni" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Pepperoni
+      </label>
 
-      <select>
+      <select class="meat-style">
         <option value="regular">Regular</option>
         <option value="vegetarian">Vegetarian</option>
         <option value="vegan">Vegan</option>
@@ -107,11 +115,13 @@
       </div>
     </div>
 
-    <div>
-      <input id="sausage" type="checkbox" > <!-- Write JS to display topping location if checked -->
-      <label for="sausage">Sausage</label>
+    <div class="toppings">
+      <label for="sausage">
+        <input id="sausage" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Sausage
+      </label>
 
-      <select>
+      <select class="meat-style">
         <option value="regular">Regular</option>
         <option value="vegetarian">Vegetarian</option>
         <option value="vegan">Vegan</option>
@@ -133,12 +143,14 @@
 
   </fieldset>
 
-  <fieldset>
-    <legend>Fruits and Vegetables</legend>
+  <fieldset id="plants">
+    <legend>Vegetables (and Pineapple)</legend>
 
-    <div>
-      <label for="mushroom">Mushrooms</label>
-      <input id="mushroom" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="mushroom">
+        <input id="mushroom" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Mushrooms
+      </label>
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="mushroom-position" value="left" >
@@ -152,9 +164,11 @@
       </div>
     </div>
 
-    <div>
-      <label for="onion">Onion</label>
-      <input id="onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="onion">
+        <input id="onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Onion
+      </label>
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="onion-position" value="left" >
@@ -168,9 +182,11 @@
       </div>
     </div>
 
-    <div>
-      <label for="red-onion">Red Onion</label>
-      <input id="red-onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="red-onion">
+        <input id="red-onion" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Red Onion
+      </label>
       <div class="toppings-location">
         <label>Left
           <input type="radio" name="red-onion-position" value="left" >
@@ -184,9 +200,11 @@
       </div>
     </div>
 
-    <div>
-      <label for="red-pepper">Red Pepper</label>
-      <input id="red-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="red-pepper">
+        <input id="red-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Red Pepper
+      </label>
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="red-pepper-position" value="left" >
@@ -200,9 +218,11 @@
       </div>
     </div>
 
-    <div>
-      <label for="grn-pepper">Green Pepper</label>
-      <input id="grn-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="grn-pepper">
+        <input id="grn-pepper" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Green Pepper
+      </label>
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="grn-pepper-position" value="left" >
@@ -216,9 +236,11 @@
       </div>
     </div>
 
-    <div>
-      <label for="pineapple">Pineapple</label>
-      <input id="pineapple" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="pineapple">
+        <input id="pineapple" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Pineapple
+      </label>
       <div class="toppings-location">
         <label>Left
         <input type="radio" name="pineapple-position" value="left" >
@@ -232,26 +254,29 @@
       </div>
     </div>
 
-    <div>
-      <label for="spinach">Spinach</label>
-      <input id="spinach" type="checkbox" > <!-- Write JS to display topping location if checked -->
+    <div class="toppings">
+      <label for="spinach">
+        <input id="spinach" type="checkbox" > <!-- Write JS to display topping location if checked -->
+        Spinach
+      </label>
       <div class="toppings-location">
-        <label>Left Side
+        <label>Left
         <input type="radio" name="spinach-position" value="left" >
         </label>
         <label>Whole
         <input type="radio" name="spinach-position" value="whole" checked >
         </label>
-        <label>Right Side
+        <label>Right
         <input type="radio" name="spinach-position" value="right" >
         </label>
       </div>
     </div>
   </fieldset>
-
-<button type="button" name="submit">Submit</button>
-<button type="button" name="cancel">Cancel</button>
-
 </form>
+
+<div id="order-buttons">
+  <button id="submit" type="button" name="submit">Submit</button>
+  <button id="cancel" type="button" name="cancel">Cancel</button>
+</div>
 
 <?php include "templates/footer.html"; ?>
